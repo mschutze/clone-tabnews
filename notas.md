@@ -2,6 +2,7 @@
 ```bash
 nvm -v #ver a versão do Node.js instalada
 nvm alias default lts/hydrogen #Set default node version on a shell
+git commit -m "descrição do commit"
 ```
 # Atalhos de teclado
 `CTRL+L` para limpar terminal
@@ -32,3 +33,9 @@ function Home() {
 export default Home;
 ```
 Executar comando `run dev` para iniciar servidor local. Clicar na antena canto inferior esquerdo para ver endereço e modifiar visibilidade para `public`. Abrir o link para ver a página (alterações são enviadas em tempo real).
+# Criar arquivo .gitignore
+Criar arquivo `.gitignore` na raiz do site e colocar pastas/arquivos que não precisam ficar no git.
+```
+.next
+node_modules
+```

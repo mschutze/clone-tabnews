@@ -3,6 +3,8 @@
 nvm -v #ver a versão do Node.js instalada
 nvm alias default lts/hydrogen #Set default node version on a shell
 git commit -m "descrição do commit"
+git push #empurrar alterações locais para o origin.
+git push -f #empurrar de forma forçada alterações locais para o origin.
 ```
 # Atalhos de teclado
 `CTRL+L` para limpar terminal

@@ -41,3 +41,5 @@ Criar arquivo `.gitignore` na raiz do site e colocar pastas/arquivos que não pr
 .next
 node_modules
 ```
+# Deploy com Vercel
+Acessar vercel.com e cadastrar o repositório GIT para fazer o deploy automatico.
